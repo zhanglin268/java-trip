@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="204a9bde-4bc4-4f04-8199-2266ba23d769" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1avGZXac7YSU7oKTyWS8GRaqfBG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.ArrayStack">
+    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayStack" />
+      <module name="20200423" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <module name="20200423" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArrayStack" />
+        <item itemvalue="Application.TestDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="204a9bde-4bc4-4f04-8199-2266ba23d769" name="Default Changelist" comment="" />
+      <created>1587608709932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587608709932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="892" y="167" key="FileChooserDialogImpl" timestamp="1587637961010">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="892" y="167" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1587637961010" />
+    <state width="772" height="227" key="GridCell.Tab.0.bottom" timestamp="1587642000136">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1587642000136" />
+    <state width="772" height="227" key="GridCell.Tab.0.center" timestamp="1587642000135">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1587642000135" />
+    <state width="772" height="227" key="GridCell.Tab.0.left" timestamp="1587642000135">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1587642000135" />
+    <state width="772" height="227" key="GridCell.Tab.0.right" timestamp="1587642000135">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1587642000135" />
+    <state width="772" height="227" key="GridCell.Tab.1.bottom" timestamp="1587642000137">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1587642000137" />
+    <state width="772" height="227" key="GridCell.Tab.1.center" timestamp="1587642000137">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1587642000137" />
+    <state width="772" height="227" key="GridCell.Tab.1.left" timestamp="1587642000136">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1587642000136" />
+    <state width="772" height="227" key="GridCell.Tab.1.right" timestamp="1587642000137">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="772" height="227" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1587642000137" />
+    <state x="588" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587635346078">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="588" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.832@0.0.1536.832" timestamp="1587635346078" />
+    <state x="279" y="51" key="new project wizard" timestamp="1587636845120">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="279" y="51" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1587636845120" />
+  </component>
+</project>
