@@ -33,12 +33,17 @@ public class TestDemoB {
         ArrayListB1.remove(10);
         ArrayListB1.display();
         System.out.println();
-        ArrayListB1.removeAllKey(2);
+        //ArrayListB1.removeAllKey(2);
         ArrayListB1.display();
         System.out.println();
         //ArrayListB1.backList();
-        ArrayListB1.display2(ArrayListB1.backList());
-
+        //ArrayListB1.display2(ArrayListB1.backList());
+        System.out.println();
+        ArrayListB1.remove(8);
+        ArrayListB1.display();
+        System.out.println();
+        Node ret = ArrayListB1.twoList(5);
+        ArrayListB1.display2(ret);
 
 
     }
