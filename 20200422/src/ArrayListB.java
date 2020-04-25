@@ -302,9 +302,67 @@ public class ArrayListB {
             this.head = this.head.next;
         }
         return true;
-
-
     }
+public boolean hasCycle() {
+        Node fast = this.head;
+        Node slow = this.head;
+
+       while(fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow) {
+                return true;
+            }
+        }
+       return false;
+}
+//判断是否有环。有就返回环的入口
+    public Node meet() {
+        Node fast = this.head;
+        Node slow = this.head;
+
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                break;
+            }
+        }
+        if (fast == null || fast.next == null) {
+            return null;
+        }
+        slow = head;
+        while (fast != slow) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+             return slow;
+    }
+
+
+    public Node getTwo(Node headA,Node headB) {
+        Node newhead  = new Node(-1);
+        Node tmp = newhead;
+        while(headA  != null && headB != null) {
+            if(headA.data <= headB.data) {
+                tmp.next = headA;
+               headA = head.next;
+            }
+            else {
+                tmp.next = headB;
+                headB = headB.next;
+            }
+            tmp = tmp.next;
+
+        }
+        tmp.next = headA == null ? headB :headA;
+        return newhead.next;
+    }
+
+
+
 
 
     /*
