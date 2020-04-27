@@ -126,6 +126,15 @@ public class MyList {
         return null;
 
     }
+    public int listSize() {
+        int count = 0;
+        Node cur = this.head;
+        while(cur != null) {
+            count++;
+            cur = cur.next;
+        }
+        return count;
+    }
 
 
 //表的回文结构
@@ -268,11 +277,81 @@ public class MyList {
         newHead.next = cur == null ? tmp : cur;
         return newHead.next;
     }
+    public Node findkthToTail (int k) {
+        Node cur = this.head;
+        Node fast = this.head;
+        Node slow = this.head;
+        if(this.head == null) {
+            return null;
+        }
+        if( k <= 0 || k > listSize()) {
+            System.out.println("k不合法");
+        }
+
+        while(k-1 > 0) {
+            if(fast.next != null) {
+                fast = fast.next;
+                k--;
+            }else {
+                System.out.println("没有这个节点");
+            }
+        }
+        while(fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
+//返回中间节点
+    public Node middleNode() {
+        if(this.head == null) {
+            return null;
+        }
+        Node fast = this.head;
+        Node slow = this.head;
+        while(fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+    //反转整个链表
+    public Node turnBackList() {
+        Node cur = this.head;
+        Node tmp = null;
+        Node newHead = null;
+        Node curNext = null;
+        while(cur != null) {
+            curNext = cur.next;
+            if(curNext == null) {
+                newHead = cur;
+            }else {
+                cur.next = tmp;
+                tmp = cur;
+                cur = curNext;
+            }
+        }
+        return newHead;
 
 
-
-
-
+    }
+//删除所有值等于val的节点
+    public void removeAllKey(int val) {
+        Node pre = this.head;
+        Node cur = this.head.next;
+        while(cur != null) {
+            if(cur.data == val) {
+                pre.next = cur.next;
+                cur = cur.next;
+            }else {
+                pre = cur;
+                cur = cur.next;
+            }
+        }
+        if(this.head.data == val) {
+            this.head = this.head.next;
+        }
+    }
 
 
 

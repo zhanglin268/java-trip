@@ -104,7 +104,7 @@ private void checkIndex(int index) {
         }
         Node1 cur = searchIndex(index);
         Node1 node = new Node1(data);
-        cur.prev.next = node;
+         cur.prev.next = node;
         node.next = cur;
         node.prev = cur.prev;
         cur.prev = node;

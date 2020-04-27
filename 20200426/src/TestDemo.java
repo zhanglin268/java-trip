@@ -6,7 +6,7 @@
  **/
 public class TestDemo {
     public static void main(String[] args) {
-        MyList MyList1 = new MyList();
+       /* MyList MyList1 = new MyList();
         MyList1.addlast(1);
         MyList1.addlast(2);
         MyList1.addlast(3);
@@ -17,7 +17,7 @@ public class TestDemo {
         MyList1.addlast(8);
         MyList1.addFirst(0);
         MyList1.display();
-        System.out.println();
+        System.out.println();*/
 
 
     }
