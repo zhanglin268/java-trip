@@ -232,8 +232,43 @@ cmo.lin.demo2.Shape shape1 = new cmo.lin.demo2.Cycle();
             System.out.println("画一个○");
         }
     }
+    abstract class Shape {
+    /* public int age;
+     private int a;
+     public void func() {
 
+     }*/
 
-
-
+        public abstract void draw() ;
+    }
+    public String huzi;
+    public Cat(String name,String huzi) {
+        super(name);
+        this.huzi = huzi;
+        System.out.println(this.name + "这是子类猫");
+    }
+    public void eat() {
+        System.out.println(this.name + " cat ：正在吃");
+    }
+    public void func() {
+        System.out.println("mao");
+    }
+    class React extends cmo.lin.demo2.Shape {
+        @Override
+        public void draw() {
+            System.out.println("画一个矩形");
+        }
+    }
+    class React extends Shape {
+        @Override
+        public void draw() {
+            System.out.println("画一个矩形");
+        }
+    }
+    class React extends Shape {
+        @Override
+        public void draw() {
+            System.out.println("画一个矩形");
+        }
+    }
 }
