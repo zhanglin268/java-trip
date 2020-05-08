@@ -13,7 +13,7 @@ class Person {
     private int age;
 }
 public class TestDemo1 {
-    public static void main(String[] args) {
+    public static void main12(String[] args) {
 
     }
     public static void main11(String[] args) throws NoSuchFieldException {
@@ -100,6 +100,7 @@ public class TestDemo1 {
         System.out.println(str2);
         char [] val = {'a','b','c','d','f'};
         System.out.println(val);
+        System.out.println(Arrays.toString(val));
 
     }
 }

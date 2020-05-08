@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @creat:2020-05-07 16:26
  **/
 public class TestDemo3 {
-    public static void main(String[] args) {
+    public static void main8(String[] args) {
         String str1 = "   abc   bcabcd";
         String ret = str1.trim();
         System.out.println(ret);
@@ -33,7 +33,7 @@ public class TestDemo3 {
         String tem = str1.replaceFirst("a","ydd");
         System.out.println(tem);
     }
-    public static void main5(String[] args) {
+    public static void main(String[] args) {
         String str1 = "ABCDef";
         String str2 = "abcdef";
         System.out.println(str1.equals(str2));
