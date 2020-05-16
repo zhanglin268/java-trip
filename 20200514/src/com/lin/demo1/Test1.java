@@ -32,7 +32,7 @@ public class Test1 {
                 }
             }
         }
-        if(stack.empty()) {
+        if(!stack.empty()) {
             System.out.println("左括号多");
             return false;
         }
