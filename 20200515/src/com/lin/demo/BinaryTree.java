@@ -1,6 +1,9 @@
 package com.lin.demo;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * @program:20200515
@@ -206,6 +209,95 @@ public class BinaryTree {
         return leftHeight >  rightHeight? leftHeight+1 :
                 rightHeight+1;
     }
+
+    //层序遍历
+        void levelOrderTraversal(Node root){
+
+            if(root == null) return;
+
+            Queue<Node> queue = new LinkedList<>();
+            queue.offer(root);
+            while(!queue.isEmpty()) {//while循环用来遍历整个树
+                Node cur = queue.poll();
+                if(cur != null) {
+                    System.out.println(cur.val + " ");
+                    if(cur.left != null) {
+                        queue.offer(cur.left);
+
+                    }
+                    if(cur.right != null) {
+                        queue.offer(cur.right);
+
+                    }
+                }
+
+            }
+        }
+    //层序遍历   当做一个List<Integer> 放进去
+    public List<List<Integer>> levelOrder(Node root) {
+        List<List<Integer>> ret = new LinkedList<>();
+        if(root == null) return ret;
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            //1、求当前队列的大小  size
+            int size = queue.size();
+            List<Integer> row = new LinkedList<>();
+
+            //2、while(size > 0)  -->控制当前每一层的数据个数
+            while(size > 0) {
+                Node cur = queue.poll();
+                row.add((int)cur.val);
+                if(cur.left != null) {
+                    queue.offer(cur.left);
+                }
+                if(cur.right != null) {
+                    queue.offer(cur.right);
+                }
+                size--;
+
+            }
+            ret.add(row);
+
+        }
+
+
+        return ret;
+    }
+
+    //判断一棵树是不是完全二叉树
+    boolean isCompleteTree(Node root) {//
+        if(root == null) {
+            return true;
+        }
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        while(!queue.isEmpty()) {
+            Node cur = queue.poll();
+            if(cur != null) {
+                queue.offer(cur.left);
+                queue.offer(cur.right);
+            }else {
+                break;
+            }
+        }
+        //看一下 对里面是否都是空
+
+        while(!queue.isEmpty()) {
+            if( queue.peek() != null) {
+                return false;
+            }else {
+                queue.poll();
+            }
+        }
+        return true;
+    }
+
+
+
+
+
 
 
     //镜像对称二叉树
