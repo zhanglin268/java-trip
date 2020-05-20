@@ -1,9 +1,6 @@
 package com.lin.demo;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @program:20200515
@@ -12,16 +9,17 @@ import java.util.Queue;
  * @creat:2020-05-15 19:44
  **/
 class Node {
-    public char val;
+    //public char val;
+    public int val;
     public Node left;
     public Node right;
-    public Node (char val) {
+    public Node (int val) {
         this.val = val;
     }
 }
 public class BinaryTree {
-    public Node buildTree() {
-        Node A = new Node('A');
+       public Node buildTree() {
+        /*Node A = new Node('A');
         Node B = new Node('B');
         Node C = new Node('C');
         Node D = new Node('D');
@@ -37,7 +35,71 @@ public class BinaryTree {
         C.left = F;
         C.right = G;
         return A;
+*/
+        Node a = new Node(5);
+        Node b = new Node(5);
+        Node c = new Node(5);
+        Node d = new Node(5);
+        Node e = new Node(5);
+        Node f = new Node(5);
+        Node g = new Node(5);
+        Node h = new Node(5);
+        Node i = new Node(5);
+        a.left = b;
+        a.right = c;
+        b.left = d;
+        b.right = e;
+        d.left = g;
+        c.right = f;
+        f.left = h;
+        f.right = i;
+
+        return a;
+
+
+
+       }
+
+    Node pre ;
+    public Node increasingBST(Node root) {
+        if(root == null) {
+            return null;
+        }
+
+        Node tmp = new Node(-1);
+        pre = tmp;
+        func(root);
+        return pre.right;
+
     }
+    public void func(Node root) {
+        if(root == null) {
+            return ;
+        }
+        func(root.left);
+        root.left = null;
+        pre.right = root;
+        pre = root;
+        func(root.right);
+
+    }
+
+
+    //根据所给的按某种顺序排列的字符串求生成的二叉树
+   /* int i = 0;
+    public Node buildTree(String str) {
+        Node root = null;
+        if( str.charAt(i) != '#') {
+            root = new Node(str.charAt(i));
+            i++;
+            root.left = buildTree(str);
+            root.right = buildTree(str);
+
+        }else {
+            i++;
+        }
+        return root;
+    }*/
 
 
     void preOrderTraversal(Node root){ //前序遍历
@@ -293,6 +355,79 @@ public class BinaryTree {
         }
         return true;
     }
+
+    //前中后的非递归写法（栈）
+    // 前序遍历
+    void preOrderTraversalNor(Node root) {
+        if(root == null) {
+            return ;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while(cur != null || !stack.empty()) {
+            while(cur != null ) {
+                stack.push(cur);
+                System.out.print(cur.val + " ");
+                cur = cur.left;
+
+            }
+            Node top = stack.pop();
+            cur = top.right;
+        }
+
+
+
+    }
+    // 中序遍历
+    void inOrderTraversalNor(Node root) {
+        if(root == null) {
+            return ;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while(cur != null || !stack.empty()) {
+            while(cur != null) {
+                stack.push(cur) ;
+                cur = cur.left;
+            }
+            Node top = stack.pop();
+
+            System.out.println(cur.val + " ");
+            cur = top.right;
+        }
+
+    }
+    // 后序遍历
+    void postOrderTraversalNor(Node root) {
+        if(root == null) {
+            return ;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        Node pre = null;
+        while(cur != null || !stack.empty()) {
+            while(cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.peek();
+            if(cur.right == null || cur.right == pre) {
+                System.out.println(cur.val + " ");
+                stack.pop();
+                pre = cur;
+                cur = null;
+            }else {
+                cur = cur.right;
+            }
+
+        }
+
+
+
+
+    }
+
+
 
 
 

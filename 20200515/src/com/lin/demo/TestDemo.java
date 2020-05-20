@@ -10,6 +10,10 @@ public class TestDemo {
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
         Node root = binaryTree.buildTree();
+        Node cur = binaryTree.increasingBST(root);
+        binaryTree.inOrderTraversal(cur);
+
+        /*Node root = binaryTree.buildTree();
         binaryTree.preOrderTraversal(root);//A B D E H C F G
         System.out.println();
         binaryTree.inOrderTraversal(root);//D B E H A F C G
@@ -23,7 +27,7 @@ public class TestDemo {
         System.out.println("节点个数 " + binaryTree.getSize2(root));
         binaryTree.getLeafSizel(root);
         System.out.println("叶子节点的个数 " + BinaryTree.leafSize);
-        System.out.println("叶子节点 "+binaryTree.getLeafSize2(root));
+        System.out.println("叶子节点 "+binaryTree.getLeafSize2(root));*/
 
     }
 
