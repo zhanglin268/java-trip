@@ -427,9 +427,146 @@ public class BinaryTree {
 
     }
 
+        // 二叉树搜索树转换成排序双向链表
+    Node prev = null;
+    public void ConvertChild(Node root) {
+        if(root == null) {
+            return ;
+        }
+        ConvertChild(root.left);
+
+        root.left = prev;
+        if(prev != null) {
+            prev.right = root;
+        }
+        prev = root;
+
+        ConvertChild(root.right);
+    }
+    public Node Convert(Node root) {
+        if(root == null) {
+            return null;
+        }
+        ConvertChild(root);
+        Node head = root;
+        while(head.left != null) {
+            head = head.left;
+        }
+        return head;
+    }
 
 
+    //根据一棵树的中序遍历与前序序遍历构造二叉树
+    public Node buildTreeChild(int[] preorder,int preIndex,int[] inorder,int inbegain, int inend) {
+        if(inbegain > inend) {
+            return null;//表示没有节点了
+        }
+        Node root = new Node(preorder[preIndex]);
+        int rootIndex = findIndexInorder(inorder,inbegain,inend,preorder[preIndex]);
+        preIndex++;
+        if(rootIndex == -1) {
+            return null;
+        }
+        root.left = buildTreeChild(preorder,preIndex,inorder,inbegain,rootIndex-1);
+        root.right = buildTreeChild(preorder,preIndex,inorder,rootIndex+1,inend);
+        return root;
+    }
 
+    public int findIndexInorder(int[] inorder,int inbegain,int inend,int val) {
+        for(int i = inbegain;i <= inend;i++) {
+            if(inorder[i] == val) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    int preIndex = 0;
+    public Node buildTree(int[] preorder, int[] inorder) {
+        if(preorder == null || inorder == null) {
+            return null;
+        }
+        if(preorder.length <= 0 || inorder.length <= 0) {
+            return null;
+        }
+
+
+        return buildTreeChild(preorder,preIndex,inorder,0,inorder.length-1);
+    }
+    // 根据一棵树的中序遍历与后序遍历构造二叉树
+    public int postIndex = 0;
+    public Node buildTreeChild1(int[] inorder,int[] postorder,int inbegain, int inend) {
+        if(inbegain > inend) {
+            return null;//表示没有节点了
+        }
+        Node root = new Node(postorder[postIndex]);
+        int rootIndex = findIndexInorder(inorder,inbegain,inend,postorder[postIndex]);
+        postIndex--;
+        if(rootIndex == -1) {
+            return null;
+        }
+        root.right = buildTreeChild1(inorder,postorder,rootIndex+1,inend);
+        root.left = buildTreeChild1(inorder,postorder,inbegain,rootIndex-1);
+        return root;
+    }
+
+    public int findIndexInorder1(int[] inorder,int inbegain,int inend,int val) {
+        for(int i = inbegain;i <= inend;i++) {
+            if(inorder[i] == val) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+
+    public Node buildTree1(int[] inorder, int[] postorder) {
+        if(inorder == null || postorder == null) {
+            return null;
+        }
+        if(inorder.length <= 0 || postorder.length <= 0) {
+            return null;
+        }
+
+
+        return buildTreeChild1(inorder,postorder,0,inorder.length-1);
+    }
+
+
+    /////////
+    public void tree2strChild(Node t,StringBuffer sb) {
+        if(t == null) return;
+        sb.append(t.val);
+
+        if( t.left == null ) {
+
+            if(t.right == null) {
+                return;
+            }else{
+                sb.append("()");
+            }
+        }else {
+            //( -> 递归 -> )
+            sb.append("(");
+            tree2strChild(t.left,sb);
+            sb.append(")");
+        }
+
+        if(t.right == null) {
+            return;
+        }else{
+            sb.append("(");
+            tree2strChild(t.right,sb);
+            sb.append(")");
+        }
+
+    }
+
+    public String tree2str(Node t) {
+        StringBuffer sb = new StringBuffer();
+        tree2strChild(t,sb);
+        return sb.toString();
+    }
 
 
 
