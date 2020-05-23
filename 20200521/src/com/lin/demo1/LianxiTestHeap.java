@@ -85,6 +85,9 @@ public class LianxiTestHeap {
         int tmp = this.elem[0];
         this.elem[0] = this.elem[usedSize-1];
         this.elem[usedSize-1] = tmp;
+        this.usedSize--;
+        adjustDown(0,this.usedSize);
+
 
     }
     public boolean isEmpty() {
@@ -92,7 +95,17 @@ public class LianxiTestHeap {
 
     }
     public void heapSort() {
+        //建立一个大堆
+        int end = this.usedSize-1;
+        while(end > 0) {
+            int tmp = this.elem[0];
+            this.elem[0] = this.elem[end];
+            this.elem[end] = tmp;
 
+            adjustDown(0,end);
+            end--;
+
+        }
     }
     public int peek() {
         if(isEmpty()) {

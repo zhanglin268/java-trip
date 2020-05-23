@@ -1,5 +1,7 @@
 package com.lin.demo;
 
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -29,6 +31,8 @@ public class TestDemo {
 
     }
     public static void main1(String[] args) {
+
+        //LinkedList
         Queue<Integer> queue = new PriorityQueue<>();
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
         priorityQueue.offer(10);

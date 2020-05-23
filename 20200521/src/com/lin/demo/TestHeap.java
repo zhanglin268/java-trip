@@ -39,10 +39,10 @@ public class TestHeap {
             if(this.elem[child] > this.elem[parent]) {
                 //交换
                 int tmp = this.elem[child];
-                this.elem[child] = this.elem[child+1];
-                this.elem[child+1] = tmp;
+                this.elem[child] = this.elem[parent];
+                this.elem[parent] = tmp;
                 parent = child;
-                child = child = 2*parent+1;
+                child = 2*parent+1;
             }else {
                 break;
             }
