@@ -457,6 +457,39 @@ public class BinaryTree {
 
 
     //根据一棵树的中序遍历与前序序遍历构造二叉树
+    //正确代码如下
+   /* int preIndex = 0;
+
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        if(preorder == null || inorder == null || preorder.length == 0 || inorder.length == 0) {
+            return null;
+        }
+        return buildTreeChild(preorder,inorder,0,inorder.length - 1);
+    }
+    public int findIndexOfInorder(int [] inorder,int inbigain,int inend,int val) {
+        for(int i = inbigain;i <= inend;i++) {
+            if(inorder[i] == val) {
+                return i;
+            }
+
+        }
+        return -1;
+    }
+    public TreeNode buildTreeChild(int[] preorder,int[] inorder,int inbigain,int inend) {
+        if(inbigain > inend) {
+            return null;//没有子节点了
+        }
+        TreeNode root = new TreeNode(preorder[preIndex] ) ;
+        int rootIndex = findIndexOfInorder(inorder,inbigain,inend,preorder[preIndex]);
+        if(rootIndex == -1) {
+            return null;
+        }
+        preIndex++;
+        root.left = buildTreeChild(preorder,inorder,inbigain,rootIndex-1);
+        root.right = buildTreeChild(preorder,inorder,rootIndex+1,inend);
+        return root;
+    }*/
+    //
     public Node buildTreeChild(int[] preorder,int preIndex,int[] inorder,int inbegain, int inend) {
         if(inbegain > inend) {
             return null;//表示没有节点了

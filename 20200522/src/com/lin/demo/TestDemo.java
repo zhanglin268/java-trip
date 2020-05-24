@@ -11,6 +11,82 @@ import java.util.Arrays;
 //排序是五月二十一号上的课
 public class TestDemo {
 
+    //快速排序 （重要）
+
+    /**
+     *
+     * 时间复杂度 ：
+     * nlogn
+     * 空间复杂度
+     * 最好情况：logn    最坏情况：On
+     * 稳定性： 不稳定
+     * @param array
+     * @param low
+     * @param high
+     * @return
+     */
+    public static int partition(int[] array,int low,int high) {
+        int tmp = array[low];
+        while(low < high) {
+            while(low < high && array[high] >= tmp) {//一定取等
+                high--;
+            }
+            array[low] = array[high];
+            while(low < high && array[low] <= tmp) {
+                low++;
+            }
+            array[high] = array[low];
+        }
+        array[low] = tmp;//相遇的地方赋值tmp
+        return low;
+    }
+    public static void quick(int[] array,int left,int right) {
+        if(left >= right) {
+            return ;
+        }
+        int mid = partition(array,left,right);
+        quick(array,left,mid-1);
+        quick(array,mid+1,right);
+
+    }
+    public static void quickSort(int[] array) {
+        quick(array,0,array.length-1);
+    }
+    ////////////////////////
+    //快速排序的优化
+    public static int partition1(int[] array,int low,int high) {
+        int tmp = array[low];
+        while(low < high) {
+            while(low < high && array[high] >= tmp ) {
+                high--;
+            }
+            array[low] = array[high];
+            while(low < high && array[low] <= tmp ) {
+                low++;
+            }
+            array[high] = array[low];
+        }
+        array[low] = tmp;//相遇的地方赋值tmp
+        return low;
+
+
+
+    }
+    public static void quick1(int[] array,int left,int right) {
+        if(left > right) {
+            return ;
+        }
+        int mid =  partition1(array,left,right);
+        quick1(array,left,mid-1);
+        quick1(array,mid+1,right);
+
+    }
+    public static void quickSort1(int[] array) {
+        quick(array,0,array.length-1);
+
+    }
+    //////////////////////////////////
+
 
 
 
@@ -183,15 +259,15 @@ public class TestDemo {
         }
     }
     public static void main(String[] args) {
-        int [] array = {10,3,7,5,1,9,11,15,54,78,24};
+        int [] array = {10,3,7,5,1,9,11,15,54,78,24,48,59,8,77};
 
         System.out.println(Arrays.toString(array));
         //shellSort(array);
         //bubbleSort1(array);
         //selectSort(array);
         //selectSort1(array);
-        BsInserSort(array);
-
+        //BsInserSort(array);
+        quickSort(array);
 
         System.out.println(Arrays.toString(array));
 
