@@ -254,11 +254,11 @@ public class TestDemo {
             //3、上述第2步在比较的过程当中，肯定会有一个下标先走完一个归并段
             //4、判断是谁没走完，把剩下的数据拷贝到结果数组当中
             while(s1 <= e1) {
-                ret[k++] = array[e1++];
+                ret[k++] = array[s1++];
 
             }
             while(s2 <= e2) {
-                ret[k++] = array[e2++];
+                ret[k++] = array[s2++];
 
             }
             //5、接着确定新的s1,e1,s2,e2
@@ -266,14 +266,14 @@ public class TestDemo {
             e1 = s1+gap-1;
             s2 = e1+1;
             e2 = s2+gap-1 < array.length ? s2+gap-1 :  array.length-1;
-
+        }
             while(s1 <= array.length-1) {
                 ret[k++] = array[s1++];
             }
             for(int i = 0;i < ret.length;i++) {
                 array[i] = ret[i];
             }
-        }
+
     }
 
 
