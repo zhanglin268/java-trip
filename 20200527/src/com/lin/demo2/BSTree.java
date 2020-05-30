@@ -1,5 +1,8 @@
 package com.lin.demo2;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @program:20200527
  * @description
