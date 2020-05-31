@@ -45,7 +45,7 @@ class HashBuck {
     }
 
     public double loadFactor() {
-        return this.usedSize *1.0 /this.array.length;
+        return this.usedSize*1.0 /this.array.length;
     }
 
     public void resize() {//重新hash
@@ -57,14 +57,24 @@ class HashBuck {
                 int index = cur.key % newarray.length;
 
                 cur.next = newarray[index];
-                array[index] = cur;
+                newarray[index] = cur;
 
                 cur = curNext;
             }
         }
         array = newarray;
     }
-
+    public int get(int key) {
+        int index = key % array.length;
+        Node cur = array[index];
+        while(cur != null) {
+            if(cur.key == key) {
+                return cur.val;
+            }
+            cur = cur.next;
+        }
+        return -1;
+    }
 
 
 
@@ -75,7 +85,8 @@ public class HashTestDemo {
         for(int i = 1;i < 8;i++) {
             hashBuck.put(i,i);
         }
-        hashBuck.put(11,11);
+        hashBuck.put(11,110);
+        System.out.println(hashBuck.get(11));
 
     }
 }
