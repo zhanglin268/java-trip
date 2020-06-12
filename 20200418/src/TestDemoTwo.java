@@ -6,6 +6,19 @@
  **/
 import java.util.*;
 public class TestDemoTwo {
+
+
+    public static void main(String[] args) {
+        int n = 1;
+        int count = 0;
+        for(int i = 0;i < 32 ;i++) {
+
+                if (((n>>i) & 1) == 1){
+                count++;
+                }
+        }
+        System.out.println(count);
+    }
     public static void getBack(int [] arr) {
       int left = 0 ;
       int right = arr.length -1;
@@ -33,7 +46,7 @@ public class TestDemoTwo {
        }
     }
 
-    public static void main(String[] args) {
+    public static void main4(String[] args) {
         int [] arr = {1,2,3,4,5};
         int [] arr1 = {6,7,8,9,10};
         swap(arr,arr1);
