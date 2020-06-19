@@ -10,10 +10,36 @@ import java.util.Scanner;
  **/
 
 
-public class LianXi {
+/*class Y {class X {
+    Y y = new Y();
+    public X() {
+        System.out.println("X");
+    }
+}*/
+  /*  public Y() {
+        System.out.println("Y");
+    }
+}*/
 
+public class LianXi  {
+    public String name = "abc";
+
+    static boolean Paddy;
 
     public static void main(String[] args) {
+        System.out.println(Paddy);
+    }
+    public static void main4(String[] args) {
+        LianXi test = new LianXi();
+        LianXi testB = new LianXi();
+        System.out.println(test.equals(testB)+ "," +test.name.equals(testB.name));
+    }
+
+
+
+
+
+    public static void main2(String[] args) {
         //char[] arr = {'a','b','c'};
         String arr = "abcde";
         StringBuffer sb = new StringBuffer(arr);

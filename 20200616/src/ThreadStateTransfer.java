@@ -11,17 +11,17 @@ public class ThreadStateTransfer {
     static class SubThread extends Thread {
         @Override
         public void run() {
-           /* Scanner scan = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in);
             scan.nextLine();
-            System.out.println("子线程即将退出");*/
+            System.out.println("子线程即将退出");
 
 
-
+/*
             try {
                 TimeUnit.SECONDS.sleep(5);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }*/
         }
 
 
