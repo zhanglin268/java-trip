@@ -5,14 +5,16 @@
  * @creat:2020-06-21 18:03
  **/
 public class MyBlockintQueue {
-    private int[] array = new int[16];//存放数据的数组
+    //private int[] array = new int[16];//存放数据的数组
+    private int[] array = new int[1];//存放数据的数组
+
     private volatile int size = 0;               //当前已有元素个数
     private int frontIndex = 0;       //指向队首元素下标
     private int rearIndex = 0;
 
     public synchronized void push(int element) throws InterruptedException {
         //判断队列是否满
-        if(size >= array.length) {
+        while(size >= array.length) {
            // throw new RuntimeException("队列已满");
             wait();//等着pop的线程唤醒，所以在pop中实现notity
         }

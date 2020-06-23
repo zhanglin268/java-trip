@@ -41,8 +41,8 @@ public class MyBlockingQueueMain2 {
 
         Scanner scanner = new Scanner(System.in);
         while(true) {
-            System.out.println("输入回车，进行消费");
-            scanner.nextLine();
+           // System.out.println("输入回车，进行消费");
+           // scanner.nextLine();
             int i = queue.pop();
             System.out.println("消费者取出了："+ i);
 
