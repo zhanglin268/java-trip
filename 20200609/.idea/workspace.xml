@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b0c9894-a195-4392-87eb-002b56876e62" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d4wN4D77WvzWydttGiRw2B0w1P" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20200606" />
+  </component>
+  <component name="RunManager" selected="Application.JoinDemo">
+    <configuration name="AboutThreadStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AboutThreadStop" />
+      <module name="20200609" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JoinDemo" />
+      <module name="20200609" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintThreadFieldsChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintThreadFieldsChild" />
+      <module name="20200609" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <module name="20200609" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cishi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cishi" />
+      <module name="20200609" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JoinDemo" />
+        <item itemvalue="Application.AboutThreadStop" />
+        <item itemvalue="Application.PrintThreadFieldsChild" />
+        <item itemvalue="Application.cishi" />
+        <item itemvalue="Application.TestClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b0c9894-a195-4392-87eb-002b56876e62" name="Default Changelist" comment="" />
+      <created>1591697629980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591697629980</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="77" key="#AboutThreadStop" timestamp="1592293997707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="667" y="77" key="#AboutThreadStop/0.0.1536.832@0.0.1536.832" timestamp="1592293997707" />
+    <state x="810" y="137" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592106673415">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="810" y="137" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.832@0.0.1536.832" timestamp="1592106673415" />
+    <state x="269" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1592300790457">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="269" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1592300790457" />
+    <state x="832" y="188" key="FileChooserDialogImpl" timestamp="1592671468569">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="832" y="188" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1592671468569" />
+    <state width="688" height="123" key="GridCell.Tab.0.bottom" timestamp="1592802276245">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="688" height="123" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1592802276245" />
+    <state width="688" height="123" key="GridCell.Tab.0.center" timestamp="1592802276244">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="688" height="123" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1592802276244" />
+    <state width="688" height="123" key="GridCell.Tab.0.left" timestamp="1592802276242">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="688" height="123" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1592802276241" />
+    <state width="688" height="123" key="GridCell.Tab.0.right" timestamp="1592802276244">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="688" height="123" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1592802276244" />
+    <state x="296" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1592821814781">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="296" y="254" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1592821814781" />
+    <state x="179" y="51" key="new project wizard" timestamp="1592821916103">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="179" y="51" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1592821916103" />
+    <state x="684" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1591788806147">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="684" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1591788806147" />
+  </component>
+</project>
