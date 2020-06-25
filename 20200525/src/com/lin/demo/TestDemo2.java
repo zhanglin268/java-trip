@@ -28,7 +28,8 @@ class Student implements  Comparable<Student>{
     public int compareTo(Student o) {
         //return this.age - o.age;//当前年龄大不大于传进来的参数
 
-        return this.score - o.score;
+        //return this.score - o.score;//从小到大
+        return o.score-this.score;//从大到小
     }
 
     @Override
@@ -41,7 +42,7 @@ class Student implements  Comparable<Student>{
     }
 }
 public class TestDemo2 {
-    public static void main(String[] args) {
+    public static void main5(String[] args) {
         Student student1 = new Student("zhangsan",17,27);
         Student student2 = new Student("zhangsan",33,67);
         Student student3 = new Student("zhangsan",44,89);
@@ -50,7 +51,7 @@ public class TestDemo2 {
 
 
     }
-    public static void main3(String[] args) {
+    public static void main(String[] args) {
         Student student1 = new Student("zhangsan",17,27);
         Student student2 = new Student("zhangsan",33,67);
         Student student3 = new Student("zhangsan",44,89);
