@@ -12,7 +12,7 @@ import java.util.PriorityQueue;
  **/
 public class TopK {
     public static Integer[] topK(int[] array,int k) {
-        MyComparator myComparator = new MyComparator();
+        //ScoreComparator myComparator = new ScoreComparator();
         //PriorityQueue <Integer> maxHeap = new PriorityQueue<>(myComparator);
         PriorityQueue <Integer> maxHeap = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
