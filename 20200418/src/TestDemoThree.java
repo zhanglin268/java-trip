@@ -5,6 +5,40 @@
  * @creat:2020-04-18 21:09
  **/
 import java.util.*;
+
+class Calculator1 {
+    private int num1;
+    private int num2;
+
+    public void setNum1(int num1) {
+        this.num1 = num1;
+    }
+
+    public void setNum2(int num2) {
+        this.num2 = num2;
+    }
+
+    public int getNum1() {
+        return num1;
+    }
+
+    public int getNum2() {
+        return num2;
+    }
+
+    public int add() {
+        return this.num1 + this.num2;
+    }
+    public int jian() {
+        return this.num1 - this.num2;
+    }
+    public int cheng() {
+        return this.num1 * this.num2;
+    }
+    public double chu() {
+        return this.num1*1.0/this.num2;
+    }
+}
 class Calculator {
     private  int num1;
     private  int num2;
@@ -72,6 +106,26 @@ public class TestDemoThree {
 
 
     public static void main(String[] args) {
+        Calculator1  cal = new Calculator1();
+        cal.setNum1(10);
+        cal.setNum2(20);
+
+        System.out.println(cal.add());
+
+        System.out.println(  cal.jian());
+
+        System.out.println( cal.cheng());
+
+        System.out.println(cal.chu());
+       // cal.getNum1();
+        System.out.println(cal.getNum1());
+        //cal.getNum2();
+        System.out.println(cal.getNum2());
+    }
+
+
+
+    public static void main5(String[] args) {
         Scanner scan = new Scanner(System.in);
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
@@ -90,6 +144,8 @@ public class TestDemoThree {
         std1.show();
         std2.show();
     }
+
+
     public static void main1(String[] args) {
     Scanner scan = new Scanner(System.in) ;
     int  num1 = scan.nextInt();

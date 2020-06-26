@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c306c7b1-1949-4168-a8c8-0f10ce8bca9e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dfhBCyGmDJBRMeWzH4aBxlYWt9" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20200515" />
+  </component>
+  <component name="RunManager" selected="Application.ScanDirBroad">
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileDemo" />
+      <module name="20200622-i0模块" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileDemo1" />
+      <module name="20200622-i0模块" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScanDirBroad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScanDirBroad" />
+      <module name="20200622-i0模块" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scanDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scanDir" />
+      <module name="20200622-i0模块" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zijilianxi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zijilianxi" />
+      <module name="20200622-i0模块" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScanDirBroad" />
+        <item itemvalue="Application.scanDir" />
+        <item itemvalue="Application.FileDemo1" />
+        <item itemvalue="Application.zijilianxi" />
+        <item itemvalue="Application.FileDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c306c7b1-1949-4168-a8c8-0f10ce8bca9e" name="Default Changelist" comment="" />
+      <created>1592821916254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592821916254</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="161" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592916961288">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="161" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1592916961288" />
+    <state x="906" y="308" key="FileChooserDialogImpl" timestamp="1593089175188">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="906" y="308" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1593089175188" />
+    <state width="807" height="139" key="GridCell.Tab.0.bottom" timestamp="1593111556622">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="807" height="139" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1593111556622" />
+    <state width="807" height="139" key="GridCell.Tab.0.center" timestamp="1593111556622">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="807" height="139" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1593111556622" />
+    <state width="807" height="139" key="GridCell.Tab.0.left" timestamp="1593111556622">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="807" height="139" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1593111556622" />
+    <state width="807" height="139" key="GridCell.Tab.0.right" timestamp="1593111556622">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="807" height="139" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1593111556622" />
+    <state x="0" y="51" key="new project wizard" timestamp="1592846809521">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="0" y="51" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1592846809521" />
+    <state x="814" y="242" key="run.anything.popup" timestamp="1593105167286">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="814" y="242" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1593105167286" />
+    <state x="734" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1592998465815">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="734" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1592998465815" />
+  </component>
+</project>
