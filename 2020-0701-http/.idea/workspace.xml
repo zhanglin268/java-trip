@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ee18314-2772-4cb5-a44e-0d6ca3f913a6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e6xuBcm0ZIijxvdsg83jAVDdhF" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.HTTPClientDemo">
+    <configuration name="HTTPClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HTTPClientDemo" />
+      <module name="2020-0701-http" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URL" />
+      <module name="2020-0701-http" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLEncodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URLEncodeDemo" />
+      <module name="2020-0701-http" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HTTPClientDemo" />
+        <item itemvalue="Application.URLEncodeDemo" />
+        <item itemvalue="Application.URL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ee18314-2772-4cb5-a44e-0d6ca3f913a6" name="Default Changelist" comment="" />
+      <created>1593656063482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593656063482</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="887" y="314" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593671454132">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="887" y="314" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.832@0.0.1536.832" timestamp="1593671454132" />
+    <state width="843" height="134" key="GridCell.Tab.0.bottom" timestamp="1593673473768">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="843" height="134" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1593673473768" />
+    <state width="843" height="134" key="GridCell.Tab.0.center" timestamp="1593673473768">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="843" height="134" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1593673473768" />
+    <state width="843" height="134" key="GridCell.Tab.0.left" timestamp="1593673473768">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="843" height="134" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1593673473768" />
+    <state width="843" height="134" key="GridCell.Tab.0.right" timestamp="1593673473768">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="843" height="134" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1593673473768" />
+    <state x="848" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1593656810323">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="848" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1593656810323" />
+  </component>
+</project>
