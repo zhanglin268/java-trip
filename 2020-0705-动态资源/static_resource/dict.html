@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>翻译器</title>
+</head>
+<body>
+<h2> 张氏字典</h2>
+<!--action的路径可以有一下几种形式：
+1,http://127.0.0.1:8080/zhanglin/translate
+2./zhanglin/translate
+3.translate
+-->
+    <form method = "get" action="http://http://127.0.0.1:8080/zhanglin/translate">
+        <div>
+            <label for="en">英文单词</label>
+            <input type="text" id = "en" name ="english" placeholder = "请输入英文单词">
+        </div>
+        <div>
+            <button type="subit">翻译</button>
+        </div>
+
+    </form>
+
+
+</body>
+</html>
