@@ -1,0 +1,44 @@
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1">
+
+<servlet>
+	<!-- 把我的动态资源类列到文件中，并起一个名字-->
+	<servlet-name>Hello</servlet-name>
+	<servlet-class>FistDynamicResource</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>hh</servlet-name>
+<servlet-class>ClassDemo</servlet-class>
+</servlet>
+	<servlet>
+		<servlet-name>TranslateServlet</servlet-name>
+		<servlet-class>com.zhanglin.TranslateServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+<!--- 把/s这个url和我们的类关联起来-->
+<servlet-mapping>
+	<servlet-name>Hello</servlet-name>
+	<url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>hh</servlet-name>
+<url-pattern>/s</url-pattern>
+</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>TranslateServlet</servlet-name>
+		<url-pattern>/s</url-pattern>
+	</servlet-mapping>
+
+</web-app>
