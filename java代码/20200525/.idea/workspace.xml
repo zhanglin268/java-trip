@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38f2b652-4060-4b1c-9bb2-43def75f86d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cOZHBqRIwyjMzasBf66NoufjLp" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20200531" />
+  </component>
+  <component name="RunManager" selected="Application.TopK">
+    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.demo.TestDemo2" />
+      <module name="20200525" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.demo.TestDemo3" />
+      <module name="20200525" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.demo.TestDemo4" />
+      <module name="20200525" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.demo.TestDemo5" />
+      <module name="20200525" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.demo.TopK" />
+      <module name="20200525" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TopK" />
+        <item itemvalue="Application.TestDemo2" />
+        <item itemvalue="Application.TestDemo5" />
+        <item itemvalue="Application.TestDemo4" />
+        <item itemvalue="Application.TestDemo3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38f2b652-4060-4b1c-9bb2-43def75f86d8" name="Default Changelist" comment="" />
+      <created>1590401510207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590401510207</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="966" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1590485074766">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="966" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1590485074766" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590660593131">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.832@0.0.1536.832" timestamp="1590660593131" />
+    <state x="787" y="226" key="FileChooserDialogImpl" timestamp="1590983645836">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="787" y="226" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1590983645836" />
+    <state width="879" height="178" key="GridCell.Tab.0.bottom" timestamp="1590661504139">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="879" height="178" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1590661504139" />
+    <state width="879" height="178" key="GridCell.Tab.0.center" timestamp="1590661504139">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="879" height="178" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1590661504139" />
+    <state width="879" height="178" key="GridCell.Tab.0.left" timestamp="1590661504138">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="879" height="178" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1590661504138" />
+    <state width="879" height="178" key="GridCell.Tab.0.right" timestamp="1590661504139">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="879" height="178" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1590661504139" />
+    <state x="686" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1590983627908">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="686" y="295" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1590983627908" />
+    <state x="156" y="51" key="new project wizard" timestamp="1590935019510">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="156" y="51" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1590935019510" />
+  </component>
+</project>
