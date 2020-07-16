@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="2020-0909-http协议-servlet实验3:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="133341ae-f6f5-4f0e-a1cb-f7448e62d016" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1eTZ6Oy3vElkUGLH0gpY3TmBsEk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.36666667" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\daimalianxi\2020-0909-http协议-servlet实验3\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\daimalianxi\2020-0909-http协议-servlet实验3\web" />
+      <recent name="D:\daimalianxi\2020-0909-http协议-servlet实验3\web\WEB-INF" />
+      <recent name="D:\daimalianxi\2020-0909-http协议-servlet实验3\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.boke">
+    <configuration name="boke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhanglin.boke" />
+      <module name="2020-0909-http协议-servlet实验3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhanglin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat:for3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.471" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/2020_0909_http_servlet3_Web_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="2020-0909-http协议-servlet实验3:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/2020_0909_http_servlet3_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_2020-0909-http协议-servlet实验3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64759" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="2020-0909-http协议-servlet实验3:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.boke" />
+      <item itemvalue="Tomcat Server.tomcat:for3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.boke" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="133341ae-f6f5-4f0e-a1cb-f7448e62d016" name="Default Changelist" comment="" />
+      <created>1594347366726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594347366726</updated>
+      <workItem from="1594347371745" duration="21460000" />
+      <workItem from="1594451427245" duration="2969000" />
+      <workItem from="1594516370123" duration="2627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594386219132">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="345" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1594386219132" />
+    <state x="782" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1594371976240">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="782" y="152" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1594371976240" />
+    <state x="694" y="157" key="FileChooserDialogImpl" timestamp="1594347522717">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="694" y="157" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1594347522717" />
+    <state width="944" height="158" key="GridCell.Tab.0.bottom" timestamp="1594402261785">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="944" height="158" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1594402261785" />
+    <state width="944" height="158" key="GridCell.Tab.0.center" timestamp="1594402261784">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="944" height="158" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1594402261784" />
+    <state width="944" height="158" key="GridCell.Tab.0.left" timestamp="1594402261784">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="944" height="158" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1594402261784" />
+    <state width="944" height="158" key="GridCell.Tab.0.right" timestamp="1594402261785">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="944" height="158" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1594402261785" />
+    <state width="640" height="158" key="GridCell.Tab.1.bottom" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state width="640" height="158" key="GridCell.Tab.1.center" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state width="640" height="158" key="GridCell.Tab.1.left" timestamp="1594402261706">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1594402261706" />
+    <state width="640" height="158" key="GridCell.Tab.1.right" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state width="640" height="158" key="GridCell.Tab.2.bottom" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.2.bottom/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state width="640" height="158" key="GridCell.Tab.2.center" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.2.center/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state width="640" height="158" key="GridCell.Tab.2.left" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.2.left/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state width="640" height="158" key="GridCell.Tab.2.right" timestamp="1594402261707">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="640" height="158" key="GridCell.Tab.2.right/0.0.1536.832@0.0.1536.832" timestamp="1594402261707" />
+    <state x="204" y="82" width="1038" height="750" key="SettingsEditor" timestamp="1594452543465">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="204" y="82" width="1038" height="750" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1594452543465" />
+    <state x="469" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594516369183">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="469" y="269" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1594516369183" />
+    <state x="356" y="53" key="new project wizard" timestamp="1594565498028">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="356" y="53" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1594565498028" />
+  </component>
+</project>
