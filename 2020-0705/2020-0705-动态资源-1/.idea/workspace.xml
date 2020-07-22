@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cdbf195-e487-4465-a4d9-e411048761a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eFLamVp2PcqzI2YwTr95PEhXGU" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\daimalianxi\2020-0705-动态资源\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\daimalianxi\2020-0705-动态资源\webapp_conf" />
+      <recent name="D:\daimalianxi\2020-0705-动态资源\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ziji" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ziji" />
+      <module name="2020-0705-动态资源" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ziji" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cdbf195-e487-4465-a4d9-e411048761a5" name="Default Changelist" comment="" />
+      <created>1593912459183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593912459183</updated>
+      <workItem from="1594109370560" duration="1790000" />
+      <workItem from="1594225338724" duration="288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="176" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594044947878">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="458" y="176" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.832@0.0.1536.832" timestamp="1594044947878" />
+    <state x="312" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1594024908212">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="312" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1594024908212" />
+    <state x="674" y="272" key="FileChooserDialogImpl" timestamp="1594112665254">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="674" y="272" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1594112665254" />
+    <state width="764" height="169" key="GridCell.Tab.0.bottom" timestamp="1594041836559">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="764" height="169" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1594041836559" />
+    <state width="764" height="169" key="GridCell.Tab.0.center" timestamp="1594041836559">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="764" height="169" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1594041836559" />
+    <state width="764" height="169" key="GridCell.Tab.0.left" timestamp="1594041836552">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="764" height="169" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1594041836552" />
+    <state width="764" height="169" key="GridCell.Tab.0.right" timestamp="1594041836559">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="764" height="169" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1594041836559" />
+    <state x="81" y="195" width="1040" height="637" key="SettingsEditor" timestamp="1594112053638">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="81" y="195" width="1040" height="637" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1594112053638" />
+    <state x="837" y="148" key="com.intellij.ide.util.TipDialog" timestamp="1594044427842">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="837" y="148" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1594044427842" />
+    <state x="354" y="50" key="new project wizard" timestamp="1594109508449">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="354" y="50" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1594109508449" />
+  </component>
+</project>
