@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 新增这里 -->
+    <bean id = "hhh" class = "java.lang.String">
+        <constructor-arg value="朱馨雨是傻逼" />
+    </bean>
+
+
+    <bean id = "s1" class = "java.lang.String">
+        <constructor-arg value = "LadyGage"/>
+    </bean>
+
+    <!--<bean id = "d1" class = "zhanglin.Duck">
+           <property name = "name" value = "LadyGaga" />
+            <property name = "age" value = "18" />
+           <constructor-arg name = "name" value="小鸭" />
+        <constructor-arg name = "age" value = "18" />
+
+    </bean> -->
+    <bean id = "dd1" class = "zhanglin.Duck3">
+        <property name="name" value="一号"/>
+        <property name="age" value="22"/>
+        <property name="next" ref="dd2"/>
+    </bean>
+
+    <bean id = "dd2" class = "zhanglin.Duck3">
+        <property name="name" value="二号"/>
+        <property name="age" value="33"/>
+        <property name="next" ref="dd3"/>
+    </bean>
+
+    <bean id = "dd3" class = "zhanglin.Duck3">
+        <property name="name" value="三号"/>
+        <property name="age" value="44"/>
+
+    </bean>
+
+
+
+    <bean id = "u1" class = "zhanglin.Duck" >
+        <property name="name" value = "s1" />
+        <property name="age" value = "15"/>
+    </bean>
+
+    <bean id = "u2" class = "zhanglin.Duck" >
+        <property name="name" value = "s2" />
+        <property name="age" value = "18"/>
+    </bean>
+
+    <bean id = "u3" class = "zhanglin.Duck" >
+        <property name="name" value = "s3" />
+        <property name="age" value = "17"/>
+    </bean>
+    <bean id = "shop" class = "zhanglin.DuckShop" >
+        <property name="ducks">
+            <list>
+                <ref bean = "u1"/>
+                <ref bean = "u2"/>
+                <ref bean = "u3"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
