@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tu-info-sys:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tu-info-sys</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sis.war">
+      <element id="artifact" artifact-name="tu-info-sys:war exploded" />
+    </root>
+  </artifact>
+</component>
