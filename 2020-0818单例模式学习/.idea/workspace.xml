@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcbcd20c-8fc0-44a5-9dfd-4c7595373936" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\daimalianxi\mavenneed\M2Repository" />
+        <option name="userSettingsFile" value="D:\daimalianxi\mavenneed\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gFjbP5hOvw2235TCB7YAxIwvD6" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javamavenprojects/pro2-项目" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest" />
+      <module name="2020-0818单例模式学习" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SingletonTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcbcd20c-8fc0-44a5-9dfd-4c7595373936" name="Default Changelist" comment="" />
+      <created>1597717304159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597717304159</updated>
+      <workItem from="1597717308858" duration="7134000" />
+      <workItem from="1597735924133" duration="2841000" />
+      <workItem from="1597832732058" duration="661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="850" y="155" key="FileChooserDialogImpl" timestamp="1597832790070">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="850" y="155" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1597832790070" />
+    <state width="825" height="167" key="GridCell.Tab.0.bottom" timestamp="1597720064133">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="825" height="167" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1597720064133" />
+    <state width="825" height="167" key="GridCell.Tab.0.center" timestamp="1597720064131">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="825" height="167" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1597720064131" />
+    <state width="825" height="167" key="GridCell.Tab.0.left" timestamp="1597720064126">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="825" height="167" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1597720064126" />
+    <state width="825" height="167" key="GridCell.Tab.0.right" timestamp="1597720064132">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="825" height="167" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1597720064132" />
+  </component>
+</project>
